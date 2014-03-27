@@ -1,1 +1,36 @@
-hi i am udyan khurana
+Game : Arachnophobia
+Made By: Udyan Khurana (201202101)
+
+Overview:
+This is a game where we have a cannon, a red and a green basket and black, red and green spiders. We have to collect the red and 
+green spiders using the appropriate baskets and shoot the black spiders with the laser fired from the cannon.
+
+Controls:
+At the start by default, cannon is selected.
+To select red basket, use 'r' key.
+To select green basket, use 'g' key.
+To select cannon, use 'b' key.
+Use left and right arrow keys to move baskets/cannon when selected.
+When cannon is selected, use up/down keys to rotate the cannon in left/right directions respectively.
+Click on the cannon/baskets with left mouse key to select them.
+Drag mouse with left button to translate cannon/baskets and drag with right button to rotate the cannon left or right.
+To pause the game, use 'p' key.
+To exit the game, use 'q' or Escape keys.
+
+Implemented Functionalities of the Game :
+1. Can select cannon/baskets with appropriate keyboard keys and mouse.
+2. Can pause and exit the game.
+3. Can move cannon/baskets with left and right arrow keysand also by dragging with left mouse button.
+4. Can rotate cannon with up/down keys and also by dragging with left mouse button.
+5. Can shoot a laser - collides with spiders, gets reflected from walls.
+6. Laser reloads in 1 second and a spider falls every 2 seconds from random positions.
+7. Spider falls down with speed varying between minSpeed and maxSpeed.
+8. When spider reaches the floor, cannon/baskets cannot move past spiders. 
+9. Look of cannon and spider are improved.
+10. Running Score shown in top right corner of the screen and "GAME OVER" shown when game gets over and Final score shown.
+11. Background music added and laser sound while firing also added.
+
+For Audio, reference used: http://devmaster.net/
+Installation commands for Libraries required for Audio:
+sudo apt-get install libopenal-dev
+sudo apt-get install libalut-dev
