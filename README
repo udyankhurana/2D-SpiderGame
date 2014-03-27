@@ -5,6 +5,8 @@ Overview:
 This is a game where we have a cannon, a red and a green basket and black, red and green spiders. We have to collect the red and 
 green spiders using the appropriate baskets and shoot the black spiders with the laser fired from the cannon.
 
+Run The Program: Type 'make' on the terminal to compile and './arac' to run the executable file.
+
 Controls:
 At the start by default, cannon is selected.
 To select red basket, use 'r' key.
